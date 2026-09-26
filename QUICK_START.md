@@ -26,7 +26,7 @@ Instructions: [`Formatting Data for Input`](example_data/format_data/FORMAT_DATA
 # data (REQUIRED) - the input data. must be in a format listed in the 'example_data' directory
 # seed (optional) - required to recreate a previous run of the engine. it is created after the first run of the engine and can be retrieved using the 'get_seed' function from the main class. when used, no other parameters other than token count need to be specified. 
 # token_count (default=10) - The desired size of the list containing your input terms.
-# initial_state (default=[66, 67, 54, 3, 34]) - The original starting values to base the chain on.
+# initial_state (default=[66, 67, 54, 3, 34]) - The original starting values to base the chain on. These can be custom if a different output sequence is desired. the same initial state is required to re-create the same output.
 # constants (optional) - Only change this for custom morphing equations.
 # mod (optional) - Only change this for custom morphing equations.
 
@@ -52,7 +52,7 @@ engine.get_seed(vocab=True)
 ```
 
 **IMPORTANT!**
-***To create determinism, the same seed, initial state, constants and mod value are required each time the engine starts. Only the seed is needed if no other custom values were passed to generate the ouput.***
+***To create determinism, the initial state, constants and mod value are required each time the engine starts. Only the initial state is needed if no other custom values were passed to generate the ouput.***
 
 <br>
 
