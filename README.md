@@ -131,7 +131,7 @@ Instructions: [`Formatting Data for Input`](example_data/format_data/FORMAT_DATA
 # data (REQUIRED) - the input data. must be in a format listed in the 'example_data' directory
 # seed (optional) - masked values used to decode preferred attributes for the 'ratings' ruleset. (ex. seed={"v": ["ABC12345", "BVCH457SZ"]})
 # token_count (optional, default=10) - The desired size of the list containing your input terms.
-# initial_state (optional, default=5) - The starting number to derive your output from. It can also be an array of integers for custom logic. 
+# initial_state (default=5) - The original starting values to base the chain on. These can be custom if a different output sequence is desired. The same initial state is required to re-create the same output.
 # constants (optional, default={"a": 3, "b": 5, "c": 7, "d": 11}) - Only change this for custom morphing equations.
 # mod (optional, default=9973) - Only change this for custom morphing equations. Its size indicates how much unique data can be generated from a seed. This can scale from 1 to infinity (or whatever the largest number the computer can handle is).
 
