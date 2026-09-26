@@ -129,7 +129,7 @@ Instructions: [`Formatting Data for Input`](example_data/format_data/FORMAT_DATA
 
 ```python
 # data (REQUIRED) - the input data. must be in a format listed in the 'example_data' directory
-# seed (optional) - hexmask values used to decode preferred attributes for the 'ratings' ruleset. (ex. seed={"v": ["ABC12345", "BVCH457SZ"]})
+# seed (optional) - masked values used to decode preferred attributes for the 'ratings' ruleset. (ex. seed={"v": ["ABC12345", "BVCH457SZ"]})
 # token_count (optional, default=10) - The desired size of the list containing your input terms.
 # initial_state (optional, default=5) - The starting number to derive your output from. It can also be an array of integers for custom logic. 
 # constants (optional, default={"a": 3, "b": 5, "c": 7, "d": 11}) - Only change this for custom morphing equations.
