@@ -28,6 +28,12 @@ format_data = ShaperFormat()
 
 ### *COMPOUND* RULESET 
 
+<br>
+
+The <i>Compound</i> ruleset is used to create combinations of terms together. Given a bank of data, items can be grouped together based on categories. The items will be randomized together within their defined categories. Examples: Meal Planner, Fitness Routine, Procedural Lore
+
+<br>
+
 Call the *'format_data.build_data'* function to generate a data template. 
 
 ```python
@@ -113,6 +119,12 @@ format_data.get_data()
 
 ### *RANDOM* RULESET 
 
+<br>
+
+The <i>Random</i> ruleset takes any items from the imported dataset and groups them together based on no specific instructions. Only  the amount of values in one output is defined. Examples: ML Training, QA Tests, Simulations
+
+<br>
+
 Call the *'format_data.build_data'* function to generate a data template. 
 
 ```python
@@ -148,7 +160,13 @@ format_data.get_data()
 
 <br> <br>
 
-### *RATING* RULESET 
+### *RATINGS* RULESET 
+
+<br>
+
+The <i>Ratings</i> ruleset defines personalized favorite attributes. From an app, specific attributes are imported and ranked by a numerical rating. How these attributes are used can vary based on an app's purpose. The rating is unique for each profile the data is used in. Based on user activity, the ratings can evolve over time. Examples: Suggested Videos, News Feeds, NPC Behavior
+
+<br>
 
 Call the *'format_data.build_data'* function to generate a data template. 
 
@@ -201,7 +219,11 @@ format_data.get_data()
 
 ### *TOKENS* RULESET 
 
-The *'tokens'* ruleset outputs raw numerical values for tokenization. Nothing special needs to be included in the dataset. Just define the ruleset and retrieve it.
+<br>
+
+The <i>Tokens</i> ruleset needs no formatting. It outputs raw deterministic integer values -- similar to a PRNG or LCG.
+
+<br>
 
 ```python
 # pass the data ruleset as the only parameter. 
