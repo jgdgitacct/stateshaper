@@ -26,7 +26,7 @@ Instructions: [`Formatting Data for Input`](example_data/format_data/FORMAT_DATA
 # data (REQUIRED) - Te input data. Must be in a format listed in the 'example_data' directory
 # seed (optional) - Masked values used to decode preferred attributes for the 'ratings' ruleset. (ex. seed={"v": ["ABC12345", "BVCH457SZ"]})
 # token_count (default=10) - The desired size of the list containing your input terms.
-# initial_state (default=[66, 67, 54, 3, 34]) - The original starting values to base the chain on. These can be custom if a different output sequence is desired. The same initial state is required to re-create the same output. A single integer can also be passed instead of an array.
+# initial_state (default=5) - The original starting values to base the chain on. These can be custom if a different output sequence is desired. The same initial state is required to re-create the same output. 
 # constants (optional) - Only change this for custom morphing equations.
 # mod (optional) - Only change this for custom morphing equations.
 
