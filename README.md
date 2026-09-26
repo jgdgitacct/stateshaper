@@ -2,7 +2,7 @@
 
 <br> 
 
-***Reduce file size and generate content using small seeds***
+***Reduce file sizes and generate content using small seeds***
 
 
 *Stateshaper* is a Python project that assists in tokenizing an infinite array of memorized numbers. The tokens can be re-created from only a few bytes and used with mapping rules that can call events or derive values for variables. Determinism is achieved by implementing an algorithm that shares similarites with PRNGs (Pseudo-random Number Generator) and LCGs (Linear Congruential Generator). 
