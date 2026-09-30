@@ -11,6 +11,9 @@ The primary benefit of the package is that it allows for a reduction in the stor
 
 *Stateshaper* can also be used securely. If desired, the output created from the starting seed can be unique based on the chosen parameters. For example, in web applications the parameter values can be stored in environment variables the same way that access keys can.
 
+I got the idea for this after working on the [`Infinite Map Concept`](https://github.com/jgddesigns/infinite_map) project (2025), which is my version of procedural world video game maps. When I asked <i>ChatGPT</i> to review the code, the AI mentioned other uses it could have -- particularly to use numbers to derive data. This prompted me to create <i>Stateshaper</i>. Not too long after I released the first version, AI had advanced to the point of being able to do everything this repo can, using only a few sentences.
+
+Originally <i>ChatGPT</i>, <i>Grok</i> and <i>Copilot</i> said the <i>Infinite Map</i> code <i>Stateshaper</i> is based on was unique, but that was probably because the concept was not understood completely at first by their models. While useful, the algorithm is really just another version of a PRNG or LCG. When I delved further into the concepts, I realized that the <i>Infinite Map</i> Code only differs slighly from a game like <i>Minecraft</i>. Using it to derive data for apps is nice, but as I previously mentioned, this can also be done easier with the concept alone using a modern AI platform. 
 
 <br> <br> 
 
