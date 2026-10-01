@@ -7,13 +7,26 @@
 
 *Stateshaper* is a Python project that assists in tokenizing an infinite array of memorized numbers. The tokens can be re-created from only a few bytes and used with mapping rules that can call events or derive values for variables. Determinism is achieved by implementing an algorithm that shares similarites with PRNGs (Pseudo-random Number Generator) and LCGs (Linear Congruential Generator). 
 
-The primary benefit of the package is that it allows for a reduction in the storage size of many types of datasets. This in turn saves database costs, including those related to size, bandwidth and energy. This can amount to a savings of over 90% in many cases. It is most efficient when used for programs featuring content generation, personalization, synthetic data and procedural generation. 
+The primary benefit of the package is that it allows for a reduction in the storage size of many types of datasets. This in turn saves database costs, including those related to size, bandwidth and energy. This can amount to a savings of over 90% in many cases. It is most efficient when used for programs featuring  personalization, synthetic data and procedural generation. 
 
-*Stateshaper* can also be used securely. If desired, the output created from the starting seed can be unique based on the chosen parameters. For example, in web applications the parameter values can be stored in environment variables the same way that access keys can.
+*Stateshaper* can also be used securely. If desired, the output created from the starting seed can be modified based on the chosen parameters for a particular dataset. This ensures that sensitive data cannot be easily re-created from the seed alone or from pattern matching due to additional factors added to the base equation. These extra values can be stored alongside the seed in environment variables the same way that credentials like database access keys or JWTs (JSON web tokens) can.
+
+------------------------------------------------
 
 I got the idea for this package after working on the [`Infinite Map Concept`](https://github.com/jgddesigns/infinite_map) project (2025), which is my version of procedural world video game mapping. When I asked <i>ChatGPT</i> to review the code, the AI mentioned other uses it could have -- particularly to use seeds to derive data for applications. This prompted me to create <i>Stateshaper</i>. Not too long after I released the first version, AI had advanced to the point of being able to do everything this repo can, using only a few sentences.
 
-Originally <i>ChatGPT</i>, <i>Grok</i> and <i>Copilot</i> said the <i>Infinite Map</i> code <i>Stateshaper</i> is based on was unique, but that was probably because the concept was not understood completely at first by their models. While useful, the algorithm is really just another version of a PRNG or LCG. When I delved further into these concepts, I realized that the <i>Infinite Map</i> Code only differs slighly from a game like <i>Minecraft</i>. Using seeds to store data is nice, but as I previously mentioned, this can also be done easier with the concept alone using a modern AI platform. 
+Originally <i>ChatGPT</i>, <i>Grok</i> and <i>Copilot</i> said the <i>Infinite Map</i> code <i>Stateshaper</i> is based on was unique, but that was probably because the concept was not understood completely at first by their models. While useful, the algorithm is really just another version of a PRNG or LCG. When I delved further into these concepts, I realized that the <i>Infinite Map</i> Code only differs slighly from a game like <i>Minecraft</i>. 
+
+Using seeds to store data is nice, but as I previously mentioned, this can also be done easier with the concept alone using a modern AI platform. I feel this project is in a good place now. Considering this, updating this repo any further will not be a priority. 
+
+For any interested parties, this concept can be easily fed into an AI by referencing the repository URL and still be used for applications. An example:
+
+```cmd
+Use determinism in my app to generate data similar to https://github.com/jgdgitacct/stateshaper
+```
+
+
+------------------------------------------------
 
 <br> <br> 
 
