@@ -6,7 +6,7 @@
 
 <br> 
 
-*UPDATE: For any interested parties, this concept can be easily fed into an AI by referencing the repository URL and still be used for applications. An example:*
+*UPDATE: For any interested parties, this concept can be easily fed into an AI by referencing the repository URL and be used for applications. An example:*
 
 ```cmd
 Use determinism in my app to generate data similar to https://github.com/jgdgitacct/stateshaper
