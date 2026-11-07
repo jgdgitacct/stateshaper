@@ -4,6 +4,14 @@
 
 ***Reduce file sizes and generate content using small seeds***
 
+<br> 
+
+*UPDATE: For any interested parties, this concept can be easily fed into an AI by referencing the repository URL and still be used for applications. An example:*
+
+```cmd
+Use determinism in my app to generate data similar to https://github.com/jgdgitacct/stateshaper
+```
+<br> 
 
 *Stateshaper* is a Python project that assists in tokenizing an infinite array of memorized numbers. The tokens can be re-created from only a few bytes and used with mapping rules that can call events or derive values for variables. Determinism is achieved by implementing an algorithm that shares similarites with PRNGs (Pseudo-random Number Generator) and LCGs (Linear Congruential Generator). 
 
@@ -18,12 +26,6 @@ I got the idea for this package after working on the [`Infinite Map Concept`](ht
 Originally <i>ChatGPT</i>, <i>Grok</i> and <i>Copilot</i> said the <i>Infinite Map</i> code <i>Stateshaper</i> is based on was unique, but that was probably because the concept was not understood completely at first by their models. While useful, the algorithm is really just another version of a PRNG or LCG. When I delved further into these concepts, I realized that the <i>Infinite Map</i> code only differs slighly from a game like <i>Minecraft</i>. 
 
 Using seeds to store data is nice, but as I previously mentioned, this can also be done easier with the concept alone using a modern AI platform. I feel this project is in a good place now. Considering this, updating this repo any further will not be a priority. 
-
-For any interested parties, this concept can be easily fed into an AI by referencing the repository URL and still be used for applications. An example:
-
-```cmd
-Use determinism in my app to generate data similar to https://github.com/jgdgitacct/stateshaper
-```
 
 
 ------------------------------------------------
